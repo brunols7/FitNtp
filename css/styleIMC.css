@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
+}
+
+.bg{
+    background-image: url(../assets/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1650px;
+    margin:0 auto;
+    padding:0 3%;  
+}  
+
+.center img{
+    text-align: center;
+    margin: -5 auto;
+}
+
+html,body{
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+    min-height: 100%;
+    overflow-y: hidden;
+	overflow-x: hidden;
+
+}
+
+header{
+    height: 200px;
+    padding: 20px 0%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.saude img{
+    margin-left: 1760px;
+    margin-bottom: 0px;
+}
+
+.menu{
+    padding-top: 35px;
+    width: 45%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold; 
+    margin-right: 15px;
+    border-bottom: 2px solid transparent;
+    transform: all .55s ease;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+
+.social-media{
+    position: absolute;
+    right: 505px;
+    top: 0px;
+}
+
+.social-media img{
+    display: block;
+    margin: 20px 0;
+}
+
+.texto-sobre {
+    margin: 30px 0;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    max-width: 800px;
+
+}
+
+.texto-sobre label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.texto-sobre input{
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.texto-sobre button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.texto-sobre button:hover{
+    background-color: #adadad; 
+    transition: background 1s;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -18%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5e6160;
+    color: white;
+  }
+
+.footer.footer{
+    height:5%;
+    background: #111010;
+    position: relative;
+	margin-top: auto;
+    padding-bottom: 10px;
+	opacity: 0.90;
+}
+
+.copyright{
+	margin-top: 0.6%;
+    margin-left: 92%;
+    font-size: 15px;
+	color: white;
+    font-weight: bold;
+}
+.copyright a{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    transform: all .55s ease;
+}   
+.copyright a:hover{
+    border-bottom: 2px solid rgb(253, 253, 253);
+}
