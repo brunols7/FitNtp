@@ -45,7 +45,7 @@ header{
 
 .extras img{
     position: absolute;
-    bottom: 70px;
+    bottom: -25px;
     right: 100px;
 }
 
